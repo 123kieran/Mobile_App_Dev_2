@@ -1,5 +1,7 @@
-﻿using System;
+﻿using MobileAppsProject.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +24,50 @@ namespace MobileAppsProject
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private ObservableCollection<Sound> Sounds;
+        private List<MenuBoard> Menu;
+
         public MainPage()
         {
+            /**
+             * on init add to the side menu a list of  
+             * all below clickable menu items with pictures and text
+             * sorted by category  
+             *  preload tge page with all sounds 
+            */
             this.InitializeComponent();
+            Sounds = new ObservableCollection<Sound>();
+            SoundManagerClass.GetAllSounds(Sounds);
+            Menu = new List<MenuBoard>();
+
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+     
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var menu = (MenuBoard)e.ClickedItem;
+            CategoryTextBlock.Text = menu.MyCategory.ToString();
+            SoundManagerClass.GetSoundsByCategory(Sounds, menu.MyCategory);
+
+            
+        }
+
+        private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+            var sound = (Sound)e.ClickedItem;
+            MyMediaElement.Source = new Uri(this.BaseUri, sound.SoundAudio);
+
         }
     }
 }

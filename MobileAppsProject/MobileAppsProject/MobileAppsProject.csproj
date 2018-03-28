@@ -98,6 +98,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuBoard.cs" />
+    <Compile Include="Model\Sound.cs" />
+    <Compile Include="Model\SoundManagerClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +110,10 @@
     <None Include="MobileAppsProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Peter\dangerous.wav" />
+    <Content Include="Assets\Audio\Peter\howseverybodydoing.wav" />
+    <Content Include="Assets\Audio\Peter\youcouldnotbemorewrong.wav" />
+    <Content Include="Assets\Audio\Peter\youlikethat.wav" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -127,7 +134,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <Folder Include="Assets\Icons\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
