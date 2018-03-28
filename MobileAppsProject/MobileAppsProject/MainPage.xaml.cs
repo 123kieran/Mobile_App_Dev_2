@@ -39,6 +39,7 @@ namespace MobileAppsProject
             Sounds = new ObservableCollection<Sound>();
             SoundManagerClass.GetAllSounds(Sounds);
             Menu = new List<MenuBoard>();
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Peter/Peter.png", MyCategory = SoundCateory.Peter });
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)
