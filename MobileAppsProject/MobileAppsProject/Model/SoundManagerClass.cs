@@ -66,6 +66,15 @@ namespace MobileAppsProject.Model
             sounds.Add(new Sound("Sheugly", SoundCateory.Stewie));
             sounds.Add(new Sound("Wemeetagain", SoundCateory.Stewie));
 
+            sounds.Add(new Sound("Giggidi", SoundCateory.Quagmire));
+            sounds.Add(new Sound("Quagmire", SoundCateory.Quagmire));
+
+            sounds.Add(new Sound("Breakyourlegs", SoundCateory.Cleveland));
+            sounds.Add(new Sound("Partyoverhere", SoundCateory.Cleveland));
+
+            sounds.Add(new Sound("Designateddriver", SoundCateory.Joe));
+            sounds.Add(new Sound("Wheelchair", SoundCateory.Joe));
+
             return sounds;
 
         }

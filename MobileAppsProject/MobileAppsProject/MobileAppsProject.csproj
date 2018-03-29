@@ -118,6 +118,10 @@
     <Content Include="Assets\Audio\Chris\Moocow.mp3" />
     <Content Include="Assets\Audio\Chris\Myinvisiblefriend.mp3" />
     <Content Include="Assets\Audio\Chris\Peedinmypants.mp3" />
+    <Content Include="Assets\Audio\Cleveland\Breakyourlegs.mp3" />
+    <Content Include="Assets\Audio\Cleveland\Partyoverhere.mp3" />
+    <Content Include="Assets\Audio\Joe\Designateddriver.mp3" />
+    <Content Include="Assets\Audio\Joe\Wheelchair.mp3" />
     <Content Include="Assets\Audio\Lois\badperson.mp3" />
     <Content Include="Assets\Audio\Lois\watchingyou.mp3" />
     <Content Include="Assets\Audio\Lois\whatchoice.mp3" />
@@ -125,10 +129,12 @@
     <Content Include="Assets\Audio\Meg\alone.mp3" />
     <Content Include="Assets\Audio\Meg\lando.mp3" />
     <Content Include="Assets\Audio\Meg\lastminute.mp3" />
-    <Content Include="Assets\Audio\Peter\dangerous.wav" />
-    <Content Include="Assets\Audio\Peter\howseverybodydoing.wav" />
-    <Content Include="Assets\Audio\Peter\youcouldnotbemorewrong.wav" />
-    <Content Include="Assets\Audio\Peter\youlikethat.wav" />
+    <Content Include="Assets\Audio\Peter\dangerous.mp3" />
+    <Content Include="Assets\Audio\Peter\howseverybodydoing.mp3" />
+    <Content Include="Assets\Audio\Peter\youcouldnotbemorewrong.mp3" />
+    <Content Include="Assets\Audio\Peter\youlikethat.mp3" />
+    <Content Include="Assets\Audio\Quagmire\Giggidi.mp3" />
+    <Content Include="Assets\Audio\Quagmire\Quagmire.mp3" />
     <Content Include="Assets\Audio\Stewie\BeDestroyed.mp3" />
     <Content Include="Assets\Audio\Stewie\IhavethePOWER.mp3" />
     <Content Include="Assets\Audio\Stewie\Sheugly.mp3" />
@@ -136,11 +142,13 @@
     <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\Icons\Brian\Brian.png" />
     <Content Include="Assets\Icons\Chris\Chris.png" />
+    <Content Include="Assets\Icons\Cleveland\Cleveland.png" />
+    <Content Include="Assets\Icons\Joe\Joe.png" />
     <Content Include="Assets\Icons\Lois\Lois.png" />
     <Content Include="Assets\Icons\Meg\Meg.png" />
     <Content Include="Assets\Icons\Peter\Peter.png" />
+    <Content Include="Assets\Icons\Quagmire\Quagmire.png" />
     <Content Include="Assets\Icons\Stewie\stewie.png" />
-    <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
@@ -148,6 +156,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

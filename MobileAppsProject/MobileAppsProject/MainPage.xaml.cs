@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -45,10 +44,13 @@ namespace MobileAppsProject
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Chris/Chris.png", MyCategory = SoundCateory.Chris });
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Brian/Brian.png", MyCategory = SoundCateory.Brian });
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Stewie/Stewie.png", MyCategory = SoundCateory.Stewie });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Quagmire/Quagmire.png", MyCategory = SoundCateory.Quagmire });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Cleveland/Cleveland.png", MyCategory = SoundCateory.Cleveland });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Joe/Joe.png", MyCategory = SoundCateory.Joe });
 
 
 
-
+            BackButton.Visibility = Visibility.Collapsed;
 
 
         }
@@ -57,12 +59,16 @@ namespace MobileAppsProject
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
 
-     
-
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        private void BackButton_Click(object sender, RoutedEventArgs e)
         {
 
+            SoundManagerClass.GetAllSounds(Sounds);
+            CategoryTextBlock.Text = "All Sounds";
+            MenuItemsListView.SelectedItem = null;
+            BackButton.Visibility = Visibility.Collapsed;
         }
+
+   
 
         private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -70,7 +76,7 @@ namespace MobileAppsProject
             CategoryTextBlock.Text = menu.MyCategory.ToString();
             SoundManagerClass.GetSoundsByCategory(Sounds, menu.MyCategory);
 
-            
+            BackButton.Visibility = Visibility.Visible;
         }
 
         private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)

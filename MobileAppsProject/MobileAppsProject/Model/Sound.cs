@@ -35,7 +35,10 @@ namespace MobileAppsProject.Model
         Meg,
         Chris,
         Brian,
-        Stewie
+        Stewie,
+        Quagmire,
+        Cleveland,
+        Joe
    
     }
 
