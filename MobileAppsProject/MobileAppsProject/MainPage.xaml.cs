@@ -40,6 +40,14 @@ namespace MobileAppsProject
             SoundManagerClass.GetAllSounds(Sounds);
             Menu = new List<MenuBoard>();
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Peter/Peter.png", MyCategory = SoundCateory.Peter });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Lois/Lois.png", MyCategory = SoundCateory.Lois });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Meg/Meg.png", MyCategory = SoundCateory.Meg });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Chris/Chris.png", MyCategory = SoundCateory.Chris });
+
+
+
+
+
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)

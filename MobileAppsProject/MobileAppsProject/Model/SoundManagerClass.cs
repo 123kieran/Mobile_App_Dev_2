@@ -42,9 +42,19 @@ namespace MobileAppsProject.Model
             sounds.Add(new Sound("youcouldnotbemorewrong", SoundCateory.Peter));
             sounds.Add(new Sound("youlikethat", SoundCateory.Peter));
 
+            sounds.Add(new Sound("badperson", SoundCateory.Lois));
+            sounds.Add(new Sound("watchingyou", SoundCateory.Lois));
+            sounds.Add(new Sound("whatchoice", SoundCateory.Lois));
+            sounds.Add(new Sound("XmasEve", SoundCateory.Lois));
 
+            sounds.Add(new Sound("alone", SoundCateory.Meg));
+            sounds.Add(new Sound("lando", SoundCateory.Meg));
+            sounds.Add(new Sound("lastminute", SoundCateory.Meg));
 
-
+            sounds.Add(new Sound("Evilmonkey", SoundCateory.Chris));
+            sounds.Add(new Sound("Moocow", SoundCateory.Chris));
+            sounds.Add(new Sound("Myinvisiblefriend", SoundCateory.Chris));
+            sounds.Add(new Sound("Peedinmypants", SoundCateory.Chris));
 
             return sounds;
 

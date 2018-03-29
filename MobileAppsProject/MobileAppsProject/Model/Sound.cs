@@ -21,7 +21,7 @@ namespace MobileAppsProject.Model
     {
             SoundName = soundName;
             SoundCategory = category;
-            SoundAudio = String.Format("/Assets/Audio/{0}/{1}.wav", category, soundName);
+            SoundAudio = String.Format("/Assets/Audio/{0}/{1}.mp3", category, soundName);
             SoundImage = String.Format("/Assets/Icons/{0}/{0}.png", category, soundName);
     }
 
@@ -30,7 +30,10 @@ namespace MobileAppsProject.Model
     public enum SoundCateory
     {
         //Declaring the Categorys available for searching via by category 
-        Peter
+        Peter,
+        Lois,
+        Meg,
+        Chris
    
     }
 

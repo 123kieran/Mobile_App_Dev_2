@@ -110,10 +110,25 @@
     <None Include="MobileAppsProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Chris\Evilmonkey.mp3" />
+    <Content Include="Assets\Audio\Chris\Moocow.mp3" />
+    <Content Include="Assets\Audio\Chris\Myinvisiblefriend.mp3" />
+    <Content Include="Assets\Audio\Chris\Peedinmypants.mp3" />
+    <Content Include="Assets\Audio\Lois\badperson.mp3" />
+    <Content Include="Assets\Audio\Lois\watchingyou.mp3" />
+    <Content Include="Assets\Audio\Lois\whatchoice.mp3" />
+    <Content Include="Assets\Audio\Lois\XmasEve.mp3" />
+    <Content Include="Assets\Audio\Meg\alone.mp3" />
+    <Content Include="Assets\Audio\Meg\lando.mp3" />
+    <Content Include="Assets\Audio\Meg\lastminute.mp3" />
     <Content Include="Assets\Audio\Peter\dangerous.wav" />
     <Content Include="Assets\Audio\Peter\howseverybodydoing.wav" />
     <Content Include="Assets\Audio\Peter\youcouldnotbemorewrong.wav" />
     <Content Include="Assets\Audio\Peter\youlikethat.wav" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\Icons\Chris\Chris.png" />
+    <Content Include="Assets\Icons\Lois\Lois.png" />
+    <Content Include="Assets\Icons\Meg\Meg.png" />
     <Content Include="Assets\Icons\Peter\Peter.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
