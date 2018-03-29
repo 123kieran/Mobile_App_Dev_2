@@ -139,7 +139,6 @@
     <Content Include="Assets\Audio\Stewie\IhavethePOWER.mp3" />
     <Content Include="Assets\Audio\Stewie\Sheugly.mp3" />
     <Content Include="Assets\Audio\Stewie\Wemeetagain.mp3" />
-    <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\Icons\Brian\Brian.png" />
     <Content Include="Assets\Icons\Chris\Chris.png" />
     <Content Include="Assets\Icons\Cleveland\Cleveland.png" />

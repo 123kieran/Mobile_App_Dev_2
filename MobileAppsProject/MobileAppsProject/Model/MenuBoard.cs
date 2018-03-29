@@ -8,6 +8,7 @@ namespace MobileAppsProject.Model
 {
     class MenuBoard
     {
+        //Create get and set for icons and sounds
         public string Icon { get; set; }
         public SoundCateory MyCategory { get; set; }
     }

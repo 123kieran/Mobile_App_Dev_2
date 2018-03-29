@@ -22,8 +22,9 @@ namespace MobileAppsProject.Model
         public static void GetSoundsByCategory(ObservableCollection<Sound> sounds, SoundCateory MySoundCategory)
         {
             //call method get all sounds 
-            var allSounds = getSounds(); 
-            // filter all sounds and assign all sounds to there subcategory via lambda expression
+            var allSounds = getSounds();
+            // filter all sounds and assign all sounds to 
+            //there subcategory via lambda expression
             var SoundByCategory = allSounds.Where(P => P.SoundCategory == MySoundCategory).ToList();  
             sounds.Clear();
             SoundByCategory.ForEach(p => sounds.Add(p));
@@ -33,7 +34,8 @@ namespace MobileAppsProject.Model
         //Arraylist of Type Sound method called getSounds 
         private static List<Sound> getSounds()
         {
-            //declare a new list add the available sounds to it as seen below return the list back when called 
+            //declare a new list add the available sounds to it 
+            //as seen below return the list back when called 
             var sounds = new List<Sound>();
             
             //Add Sounds to List 
@@ -75,6 +77,7 @@ namespace MobileAppsProject.Model
             sounds.Add(new Sound("Designateddriver", SoundCateory.Joe));
             sounds.Add(new Sound("Wheelchair", SoundCateory.Joe));
 
+            //returns the sounds
             return sounds;
 
         }

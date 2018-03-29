@@ -29,10 +29,10 @@ namespace MobileAppsProject
         public MainPage()
         {
             /**
-             * on init add to the side menu a list of  
+             * on starting the app add to the side menu a list of  
              * all below clickable menu items with pictures and text
              * sorted by category  
-             *  preload tge page with all sounds 
+             * preload the page with all sounds 
             */
             this.InitializeComponent();
             Sounds = new ObservableCollection<Sound>();
@@ -49,7 +49,7 @@ namespace MobileAppsProject
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Joe/Joe.png", MyCategory = SoundCateory.Joe });
 
 
-
+            //hide back button
             BackButton.Visibility = Visibility.Collapsed;
 
 

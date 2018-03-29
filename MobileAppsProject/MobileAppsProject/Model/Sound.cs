@@ -13,9 +13,9 @@ namespace MobileAppsProject.Model
         public string SoundAudio { get; set; }
         public string SoundImage { get; set; }
 
-        /*public arg construct which assigns the variables to the 
-          audio files and image files as well as sound name and category  
-          via the below enum 
+        /*assigns the variables to the 
+          audio files and image files 
+          as well as sound name and category  
         */    
     public Sound(String soundName, SoundCateory category)
     {
@@ -29,7 +29,7 @@ namespace MobileAppsProject.Model
 
     public enum SoundCateory
     {
-        //Declaring the Categorys available for searching via by category 
+        //Declaring the Categorys available for searching by category 
         Peter,
         Lois,
         Meg,
