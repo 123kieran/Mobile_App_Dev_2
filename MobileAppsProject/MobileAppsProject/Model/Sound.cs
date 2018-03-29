@@ -33,7 +33,9 @@ namespace MobileAppsProject.Model
         Peter,
         Lois,
         Meg,
-        Chris
+        Chris,
+        Brian,
+        Stewie
    
     }
 

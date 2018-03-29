@@ -43,6 +43,8 @@ namespace MobileAppsProject
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Lois/Lois.png", MyCategory = SoundCateory.Lois });
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Meg/Meg.png", MyCategory = SoundCateory.Meg });
             Menu.Add(new MenuBoard { Icon = "Assets/Icons/Chris/Chris.png", MyCategory = SoundCateory.Chris });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Brian/Brian.png", MyCategory = SoundCateory.Brian });
+            Menu.Add(new MenuBoard { Icon = "Assets/Icons/Stewie/Stewie.png", MyCategory = SoundCateory.Stewie });
 
 
 

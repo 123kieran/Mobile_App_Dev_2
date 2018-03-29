@@ -110,6 +110,10 @@
     <None Include="MobileAppsProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Brian\Ass.mp3" />
+    <Content Include="Assets\Audio\Brian\Cheerios.mp3" />
+    <Content Include="Assets\Audio\Brian\Drymartini.mp3" />
+    <Content Include="Assets\Audio\Brian\Rapmusic.mp3" />
     <Content Include="Assets\Audio\Chris\Evilmonkey.mp3" />
     <Content Include="Assets\Audio\Chris\Moocow.mp3" />
     <Content Include="Assets\Audio\Chris\Myinvisiblefriend.mp3" />
@@ -125,11 +129,17 @@
     <Content Include="Assets\Audio\Peter\howseverybodydoing.wav" />
     <Content Include="Assets\Audio\Peter\youcouldnotbemorewrong.wav" />
     <Content Include="Assets\Audio\Peter\youlikethat.wav" />
+    <Content Include="Assets\Audio\Stewie\BeDestroyed.mp3" />
+    <Content Include="Assets\Audio\Stewie\IhavethePOWER.mp3" />
+    <Content Include="Assets\Audio\Stewie\Sheugly.mp3" />
+    <Content Include="Assets\Audio\Stewie\Wemeetagain.mp3" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\Icons\Brian\Brian.png" />
     <Content Include="Assets\Icons\Chris\Chris.png" />
     <Content Include="Assets\Icons\Lois\Lois.png" />
     <Content Include="Assets\Icons\Meg\Meg.png" />
     <Content Include="Assets\Icons\Peter\Peter.png" />
+    <Content Include="Assets\Icons\Stewie\stewie.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

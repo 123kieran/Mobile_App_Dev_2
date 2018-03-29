@@ -56,6 +56,16 @@ namespace MobileAppsProject.Model
             sounds.Add(new Sound("Myinvisiblefriend", SoundCateory.Chris));
             sounds.Add(new Sound("Peedinmypants", SoundCateory.Chris));
 
+            sounds.Add(new Sound("Ass", SoundCateory.Brian));
+            sounds.Add(new Sound("Cheerios", SoundCateory.Brian));
+            sounds.Add(new Sound("Drymartini", SoundCateory.Brian));
+            sounds.Add(new Sound("Rapmusic", SoundCateory.Brian));
+
+            sounds.Add(new Sound("BeDestroyed", SoundCateory.Stewie));
+            sounds.Add(new Sound("IhavethePOWER", SoundCateory.Stewie));
+            sounds.Add(new Sound("Sheugly", SoundCateory.Stewie));
+            sounds.Add(new Sound("Wemeetagain", SoundCateory.Stewie));
+
             return sounds;
 
         }
