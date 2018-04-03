@@ -15,7 +15,7 @@ namespace MobileAppsProject.Model
 
         /*assigns the variables to the 
           audio files and image files 
-          as well as sound name and category  
+          and the sound name and category  
         */    
     public Sound(String soundName, SoundCateory category)
     {
@@ -29,7 +29,7 @@ namespace MobileAppsProject.Model
 
     public enum SoundCateory
     {
-        //Declaring the Categorys available for searching by category 
+        //Declaring the Categorys
         Peter,
         Lois,
         Meg,
