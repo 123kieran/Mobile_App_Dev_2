@@ -144,6 +144,8 @@
     <Content Include="Assets\Audio\Stewie\IhavethePOWER.mp3" />
     <Content Include="Assets\Audio\Stewie\Sheugly.mp3" />
     <Content Include="Assets\Audio\Stewie\Wemeetagain.mp3" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Icons\Brian\Brian.png" />
     <Content Include="Assets\Icons\Chris\Chris.png" />
     <Content Include="Assets\Icons\Cleveland\Cleveland.png" />
@@ -157,8 +159,6 @@
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\StoreLogo.png" />
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Properties\Default.rd.xml" />
