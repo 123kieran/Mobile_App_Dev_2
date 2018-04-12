@@ -21,8 +21,7 @@ the design.
 Your App must be submitted for certification on the Windows Store
 
 # Windows Store Link
-
-
+//insert link
 
 # UWP FamilyGuy SoundBoard
 For my project, I have decided to make a soundboard. The soundboard will consist of sounds from various characters from the Tv Series Family Guy. The user can navigate between characters and choose a sound to play. The user can simply click/tap on an image to play a sound. 
