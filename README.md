@@ -30,7 +30,8 @@ For my project, I have decided to make a soundboard. The soundboard will consist
 - Integrated Touch
 
 # Running the app
-//I ran the windows App cert test on the App and it passed, See Image "WindowsTest.png". Waiting for certification from store
+//I ran the windows App cert test on the App and it passed, See Image "WindowsTest.png". Waiting for certification from store.
+
 The app is available from the windows store and can be found through searching for "FamilyGuy SoundBoard" or clicking on this link : link will be here
 
 You can also clone this repo :
